@@ -22,6 +22,7 @@ const AppPro = () => {
 
   return (
     <>
+    //                              Random color
       <StatusBar backgroundColor={randomBackground} />;
       <View style={[styles.container, {backgroundColor: randomBackground}]}>
         <TouchableOpacity onPress={generateColor}>
